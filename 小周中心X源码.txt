@@ -1,54 +1,54 @@
-function Notify(Title1, Text1, Icon1, Time1)
-  game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = Title1,
-    Text = Text1,
-    Icon = Icon1,
-    Duration = Time1,
-  })
-end
-Notify("小周中心", "作者哦", "rbxassetid://17360377302", 3)
-Notify("永久免费", "祝78玩的开心","rbxassetid://17360377302",3)
-Notify("永久免费", "没有盈利","rbxassetid://17360377302",3)
-Notify("小周中心", "永久免费","rbxassetid://17360377302",3)
-Notify("拒绝跑路", "拒绝倒卖","rbxassetid://17360377302",3)
-Notify("启动nb", "祝你玩的开心","rbxassetid://17360377302",5)
+功能通知(title1，Text1，icon1，Time1)
+游戏：GetService("StarterGuui")：SetCore("SendNotification"，{
+title=title1，
+text=Text1，
+icon=icon1，
+持续时间=时间1，
+})
+结束
+通知("小周中心"，"作者哦"，"rbxassetid://17360377302"，3)
+通知("永久免费"，"祝78玩的开心"，"rbxassetid://17360377302"，3)
+通知("永久免费"，"没有盈利"，"rbxassetid://17360377302"，3)
+通知("小周中心"，"永久免费"，"rbxassetid://17360377302"，3)
+通知("拒绝跑路"，"拒绝倒卖"，"rbxassetid://17360377302"，3)
+通知("启动nb"，"祝你玩的开心"，"rbxassetid://17360377302"，5)
 
-local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/XiaoYunCN/UWU/main/Library%2FSilent%20ui'))()
-local Window = Library:new("小周中心 X");
+本地库=载荷串(游戏：HttpGet('https://raw.githubusercontent.com/XiaoYunCN/UWU/main/Library%2FSilent%20ui'))()
+local Window=Library:new("小周中心X")；
 
-local creds = Window:Tab("公告",'2308230889')
-local bin = creds:section("信息",true)
-local about = creds:section("作者",哦)
+本地学分=窗口：tab("公告",'2308230889')
+本地bin=学分：部分("信息"，正确)
+本地关于=学分：节("作者"，正确)
 
-local Main = Window:Tab("主要",'2308230889')
-local General = Main:section("玩家",true)
-local GX = Main:section("通用",true)
-local QU = Main:section("ESP",true)
-local QW = Main:section("其他",true)
+local Main=Window:Tab("主要",'2308230889')
+局部概述=主要：部分("玩家"，正确)
+局部GX=主要：部分("通用"，正确)
+本地QU=主：部分(“ESP”，真)
+本地QW=主要：截面(“其他”，正确)
 
-local JSDGt = Window:Tab("驾驶帝国",'16060333448')
-local JSDG = JSDGt:section("自动&刷钱",true)
+本地JSDGt=窗口：选项卡("驾驶帝国",'16060333448')
+本地JSDG=JSDGt：截面("自动&刷钱"，正确)
 
-local FMDHt = Window:Tab("伐木大亨2",'16060333448')
-local FMDH = FMDHt:section("伐木大亨2",true)
+本地FMDHt=窗口：选项卡("伐木大亨2",'16060333448')
+local FMDH=FMDHt:section("伐木大亨2"，true)
 
-local SKQSt = Window:Tab("鲨口求生2",'16060333448')
-local SKQS = SKQSt:section("鲨口&求生",true)
+本地SKQSt=窗口：选项卡("鲨鱼求生2",'16060333448')
+本地SKQS=SKQSt：节("鲨口&求生"，正确)
 
-local DoorsT = Window:Tab("doors",'16060333448')
-local Doors = DoorsT:section("通用&功能",true)
-local DOORSR = DoorsT:section("透视",true)
-local BP = DoorsT:section("其他",true)
+本地门T=窗：选项卡("门”，'16060333448')
+本地门=DoorsT：部分("通用&功能"，正确)
+本地DOORSR=DoorsT：节("透视"，正确)
+本地BP=DoorsT：节("其他"，正确)
 
-local LLCQt = Window:Tab("力量传奇",'16060333448')
-local LLCQ = LLCQt:section("主要&功能",true)
-local LLQR = LLCQt:section("自动收集",true)
-local LLRQ = LLCQt:section("跑步机",true)
-local LLRE = LLCQt:section("岩石",true)
-local LLQQ = LLCQt:section("传送位置",true)
+本地LLCQt=窗口：选项卡("力量传奇",'16060333448')
+本地LLCQ=LLCQt：章节("主要&功能"，正确)
+本地LLQR=LLCQt：章节("自动收集"，正确)
+本地LLRQ=LLCQt：章节("跑步机"，正确)
+本地LLRE=LLCQt：节(“岩石”，正确)
+本地LLQQ=LLCQt：章节("传送位置"，正确)
 
-local JSCQt = Window:Tab("极速传奇",'16060333448')
-local JSCQ = JSCQt:section("自动&玩家",true)
+本地JSCQt=窗口：选项卡("极速传奇",'16060333448')
+本地JSCQ=JSCQt：截面("自动&玩家"，正确)
 local JSQC = JSCQt:section("传送位置",true)
 
 local RZCQt = Window:Tab("忍者传奇",'16060333448')
