@@ -18,7 +18,7 @@ local Window = Library:new("小周中心 X");
 
 local creds = Window:Tab("公告",'2308230889')
 local bin = creds:section("信息",true)
-local about = creds:section("作者",true)
+local about = creds:section("作者",哦)
 
 local Main = Window:Tab("主要",'2308230889')
 local General = Main:section("玩家",true)
